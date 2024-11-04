@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Dark Mode Toggle",
+    "version": "1.0",
+    "description": "Toggle dark mode on any website.",
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "images/drk.png",
+        "48": "images/drk.png",
+        "128": "images/drk.png"
+      }
+    }
+  }
+  
